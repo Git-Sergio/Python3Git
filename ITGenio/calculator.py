@@ -1,3 +1,6 @@
+#$ python3 calculator.py
+
+
 from tkinter import *
 from tkinter import messagebox
 from tkinter import ttk
