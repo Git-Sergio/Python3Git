@@ -1,3 +1,7 @@
+# encoding=utf8
+import sys
+reload(sys)
+sys.setdefaultencoding('utf8')
 #Pogoda
 import pyowm
 owm = pyowm.OWM('dad12bb47b731ab11ef9b3959a731c75', language='ru')  # You MUST provide a valid API key
